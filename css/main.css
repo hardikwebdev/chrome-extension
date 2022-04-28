@@ -1,0 +1,150 @@
+/**
+ * Custom CSS may be added here.
+ */
+body {
+  min-width: 400px;
+  min-height: 350px;
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+.error{
+  border: 1px solid red;
+}
+.error-text{
+  color: red;
+  font-size: 0.8em;
+}
+.loader-full{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #00000080;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #37db34;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+.loader-full .loader {
+  text-align: center;
+  margin: auto;
+  top: 40%;
+  position: relative;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.btn-cprimary{
+  padding: 5px 15px;
+  border-radius: 5px !important;
+  background-color: #003A5D;
+  color: #ffffff;
+  border: 1px solid #003A5D !important;
+}
+.btn-cprimary:hover,button:hover{
+  color: #003A5D;
+  background-color: #ffffff;
+}
+.btn,button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #003A5D ;
+  color: #ffffff ;
+}
+.addError{
+  color: red;
+  font-size: 16px;
+}
+.tab-pane {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.line {
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form.settings label{
+ width: 100px;
+ display: block;
+ float: left;
+}
+
+form.settings .form-item{
+  clear: both;
+}
+.product-form{
+  display: none;
+}
+
+.text-navy-dark{
+  color: #003A5D;
+}
+.bg-navy-dark{
+  background-color: #003A5D !important;
+}
+
+.bg-nude-light{
+  background-color: #f3cfc6;
+}
+
+.login-bg{
+  background: rgba(243, 207, 198, 0.35);
+  margin-top: -10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  height: 90%;
+}
+.img-col img.img-fluid {
+  max-width: 80px;
+}
+.title-description h4 {
+  font-size: 18px;
+}
+.brdr-radius-5{
+  border-radius: 5px;
+}
+.row.product-list-show{
+  display: none;
+}
+
+.immg-logo.text-center {
+  background: #003a5d;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  padding: 10px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.max-widh-70{
+  max-width: 70%;
+}
+.description-readmore {
+  overflow: hidden;
+  max-height: 76px;
+}
+
+.title-readmore {
+ max-height: 40px;
+ overflow: hidden;
+}
+.get-registry-id{
+  cursor: pointer;
+}
+.thankyou-page{
+  display: none;
+}
